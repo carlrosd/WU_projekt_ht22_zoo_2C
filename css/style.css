@@ -1,3 +1,18 @@
-h1 {
-        color: red;
+.flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.hdr-div {
+        background: red;
+        padding: 10px;
+}
+
+#hdr-div-1 {
+        font-family: "CMUSerifRoman";
+}
+
+#hdr-div-2 {
+        font-family: "CMUSansSerif", monospace;
 }
