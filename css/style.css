@@ -1,18 +1,60 @@
+* {
+}
+
+body {
+        background: linear-gradient(217deg, rgb(243, 139, 168,0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgb(235, 160, 172,0.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgb(250, 179, 135,0.8), rgba(0,0,255,0) 70.71%);
+        height: 100vh;
+        width: 100vw;
+}
+
 .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+.hdr-div {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        background: linear-gradient(100deg, rgb(49, 50, 68) 5%, rgb(30, 30, 46) 100%);
+        font-family: "CMUSerifBold";
+        font-size: x-large;
+}
+
+#hdr-div-1 {
+        color: rgb(166, 227, 161);
+}
+
+.card_big {
+        margin: 15px;
+        padding: 5px;
+        color: rgb(205, 214, 244);
+        background: linear-gradient(100deg, rgb(49, 50, 68) 15%, rgb(30, 30, 46) 15%);
+        width: 500px;
+        height: auto;
+        font-family: "CMUSerifRoman";
+        box-shadow: 5px 5px 10px 2px rgb(17, 17, 27);
+}
+
+.card {
+        margin: 15px;
+        padding: 5px;
+        background: aliceblue;
+        width: 250px;
+        height: 300px;
+        font-family: "CMUSerifRoman";
         display: flex;
         flex-direction: row;
         justify-content: center;
 }
 
-.hdr-div {
-        background: red;
-        padding: 10px;
+#card_1 {        
+        background: linear-gradient(100deg, rgb(49, 50, 68) 5%, rgb(30, 30, 46) 100%);
 }
-
-#hdr-div-1 {
-        font-family: "CMUSerifRoman";
-}
-
-#hdr-div-2 {
-        font-family: "CMUSansSerif", monospace;
+#card_2{
+        background: linear-gradient(100deg, rgb(40, 41, 54) 0.5%, rgb(30, 30, 46) 100%);
 }
